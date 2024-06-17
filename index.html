@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xian dApp Starter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="#">
+                    <strong>Xian dApp Starter</strong>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-end">
+                    <a class="navbar-item" href="#" id="wallet-address">
+                        Connect Wallet
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section">
+        <div class="container">
+            <h1 class="title">
+                Decentralized Counter
+            </h1>
+            <p class="subtitle">
+                Everyone can increment the counter by calling the smart contract function increment_counter().
+            </p>
+            <div class="counter-container">
+                <div class="counter">
+                    <h2 class="title is-2" id="counter-value">0</h2>
+                    <button class="button is-primary" id="increment-button">Increment</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/bulma-toast/dist/bulma-toast.min.js"></script>
+    <script src="js/dapp.js"></script>
+    <script src="js/node.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

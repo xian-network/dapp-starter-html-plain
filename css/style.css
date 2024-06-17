@@ -1,0 +1,11 @@
+.counter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.counter {
+    margin: 0 1rem;
+    text-align: center;
+}
