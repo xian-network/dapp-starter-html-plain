@@ -1,3 +1,5 @@
+Please don't use the dapp.js included here but the newest one from the dapp-utils repository.
+
 # Xian Counter dApp
 
 This is a simple decentralized application (dApp) that interacts with the Xian blockchain. It uses the Xian Wallet browser extension to send transactions and interact with smart contracts.
